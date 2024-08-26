@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from "../../assets/new-logo.png";
 import contactUs from "../../assets/contact-us.png";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,6 +10,8 @@ const Navbar = () => {
     setIsOpen(!isOpen);
     console.log("Menu state is now:", !isOpen); // Debugging console.log to check state
   };
+
+  const navigate = useNavigate()
 
   return (
     <nav className="text-white py-4 px-5 sm:px-8 flex items-center justify-center font-['Urbanist'] relative z-10">
@@ -49,7 +51,7 @@ const Navbar = () => {
           </ul>
           
           {/* Contact Us Button */}
-          <div className="hidden sm:flex Frame2 h-[45px] px-5 py-3 bg-[#e54f26] rounded-lg justify-start items-center ml-4 sm:ml-[55px]">
+          <div className="hidden sm:flex Frame2 h-[45px] px-5 py-3 bg-[#e54f26] rounded-lg justify-start items-center ml-4 sm:ml-[55px] cursor-pointer" onClick={()=>{navigate("/contact")}}>
             <div className="ContactUs w-[111px] text-white text-lg font-semibold font-['Urbanist']">Contact Us</div>
             <img className="Subtract w-5 h-5" src={contactUs} alt="Contact Us" />
           </div>
@@ -65,7 +67,7 @@ const Navbar = () => {
             <li><Link  to="/work" className="hover:text-gray-400">Work</Link></li>
             <li><Link  to="/connect" className="hover:text-gray-400">Connect</Link></li>
             <li><Link  to="/media" className="hover:text-gray-400">Media</Link></li>
-            <li className="Frame2 h-[45px] px-5 py-3 bg-[#e54f26] rounded-lg justify-center items-center inline-flex mx-auto">
+            <li className="Frame2 h-[45px] px-5 py-3 bg-[#e54f26] rounded-lg justify-center items-center inline-flex mx-auto cursor-pointer" onClick={()=>{navigate("/contact")}}>
               <div className="ContactUs w-[111px] text-white text-lg font-semibold font-['Urbanist']">Contact Us</div>
               <img className="Subtract w-5 h-5" src={contactUs} alt="Contact Us" />
             </li>
