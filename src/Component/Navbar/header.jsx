@@ -60,7 +60,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="sm:hidden absolute top-16 left-0 w-full bg-black text-center z-20">
           <ul className="flex flex-col space-y-4 py-4">
-            <li><Link  to="/home" className="hover:text-gray-400">Home</Link></li>
+            <li><Link  to="/" className="hover:text-gray-400">Home</Link></li>
             <li><Link  to="/about" className="hover:text-gray-400">About</Link></li>
             <li><Link  to="/work" className="hover:text-gray-400">Work</Link></li>
             <li><Link  to="/connect" className="hover:text-gray-400">Connect</Link></li>
