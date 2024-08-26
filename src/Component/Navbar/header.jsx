@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from "../../assets/new-logo.png";
 import contactUs from "../../assets/contact-us.png";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,11 +41,11 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <ul className={`hidden sm:flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-[55px] ml-4 sm:ml-0 ${isOpen ? "block" : "hidden"} sm:block`}>
-            <li><a href="#home" className="hover:text-gray-400">Home</a></li>
-            <li><a href="#about" className="hover:text-gray-400">About</a></li>
-            <li><a href="#work" className="hover:text-gray-400">Work</a></li>
-            <li><a href="#connect" className="hover:text-gray-400">Connect</a></li>
-            <li><a href="#media" className="hover:text-gray-400">Media</a></li>
+            <li><Link to="/" className="hover:text-gray-400">Home</Link></li>
+            <li><Link to="/about" className="hover:text-gray-400">About</Link></li>
+            <li><Link to="/work" className="hover:text-gray-400">Work</Link></li>
+            <li><Link to="/connect" className="hover:text-gray-400">Connect</Link></li>
+            <li><Link to="/media" className="hover:text-gray-400">Media</Link></li>
           </ul>
           
           {/* Contact Us Button */}
