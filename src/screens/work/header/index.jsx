@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../../Component/Navbar/header';
-import backgroundImage from '../../../assets/work-bg.png'; // Adjust the path based on your project structure
+import backgroundImage from '../../../assets/img-17.png'; // Adjust the path based on your project structure
 
 const HeaderSection = () => {
   return (

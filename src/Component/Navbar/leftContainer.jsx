@@ -29,16 +29,16 @@ const LeftContainer = () => {
         style={{
           background: 'linear-gradient(94.37deg, #171719 -56.81%, #E54F26 -3.21%, #E54F26 44.09%, #FF8665 100.85%)'
         }}
-        className="fixed left-2 md:left-0 bottom-4 md:bottom-10 w-[48px] h-[160px] md:w-[56px] md:h-[180px] flex items-center md:items-start justify-center md:justify-between flex-col space-y-2 md:space-y-4 p-2"
+        className="fixed left-2 md:left-0 bottom-4 md:bottom-10 w-[48px] h-[130px] md:w-[56px] md:h-[150px] flex items-center md:items-start justify-between md:justify-between flex-col space-y-2 md:space-y-4 p-2"
       >
         <button className="p-1 rounded-full">
-          <img src={whatsappIcon} className="w-4 h-4 md:w-6 md:h-6" />
+          <img src={whatsappIcon} className="w-5 h-5 md:w-6 md:h-6" />
         </button>
         <button className="p-1 rounded-full">
-          <img src={emailIcon} className="w-4 h-4 md:w-6 md:h-6" />
+          <img src={emailIcon} className="w-5 h-4 md:w-6 md:h-5" />
         </button>
         <button className="p-1 rounded-full">
-          <img src={phoneIcon} className="w-4 h-4 md:w-6 md:h-6" />
+          <img src={phoneIcon} className="w-5 h-5 md:w-6 md:h-6" />
         </button>
       </div>
     </div>

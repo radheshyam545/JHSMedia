@@ -11,7 +11,11 @@ const GetInTouch = () => {
       {/* Left Section - Gray Background */}
       <div className="relative w-full lg:w-6/12 bg-[#272727] text-white py-6 px-4 sm:py-8 sm:px-8 md:py-10 md:px-16 lg:py-20 lg:pl-48 lg:pr-0 flex flex-col justify-between font-['Urbanist']">
         <div className="absolute top-20 left-0 lg:-left-20 xl:-left-16 transform translate-x-0 lg:translate-x-1/2">
-          <h1 className="text-2xl sm:text-3xl md:text-[48px] lg:text-[74px] font-[900] mb-4 sm:mb-6 z-10">
+          <h1 className="text-2xl sm:text-3xl md:text-[48px] lg:text-[74px] font-[900] mb-4 sm:mb-6 z-10  uppercase text-[#272727]"
+           style={{
+             WebkitTextStroke: '2px #FFFFFF80',
+            }}
+          >
             GET IN TOUCH
           </h1>
         </div>
@@ -71,7 +75,7 @@ const GetInTouch = () => {
       </div>
 
       {/* Right Section - Black Background */}
-      <div className="w-full lg:w-7/12 bg-[#111111] text-white py-6 px-4 sm:py-8 sm:px-8 md:py-10 md:px-20 lg:py-8 lg:pr-40 flex flex-col justify-between">
+      <div className="w-full lg:w-7/12 bg-[#111111] text-white py-6 px-4 sm:py-8 sm:px-8 md:py-10 md:px-20 lg:py-8 lg:pr-40 flex flex-col justify-between font-['Urbanist']">
         <form className="p-4 sm:p-6 rounded-lg mb-6">
           <div className="mb-3">
             <input
@@ -114,10 +118,10 @@ const GetInTouch = () => {
             </div>
             <button
               type="submit"
-              className="bg-[#E54F26] hover:bg-orange-600 text-white font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-lg flex items-center space-x-2"
+              className="bg-[#E54F26] hover:bg-orange-600 text-[#FFFFFF] font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-lg flex items-center space-x-2"
             >
-              <span>Submit</span>
-              <img src={arrowIcon} alt="Arrow" className="w-4 h-4" />
+              <span className='tracking-[2px]'>Submit</span>
+              <img src={arrowIcon} alt="Arrow" className="w-5 h-5" />
             </button>
           </div>
         </form>

@@ -27,7 +27,7 @@ const LeftSection = () => {
             And if this sounds like you, say hello to us with your resume.
           </p>
           
-          <ul className="space-y-4 border-l-2 border-gray-700 pl-4 py-4">
+          {/* <ul className="space-y-4 border-l-2 border-gray-700 pl-4 py-4">
             <li className="text-lg font-[500] text-[#FFFFFF99] leading-[28.8px] hover:text-[20px] md:hover:text-[20px] hover:font-bold hover:leading-[28.8px] md:hover:leading-[38.4px] hover:text-[#FFFFFF]">
               Front End Developer
             </li>
@@ -40,7 +40,22 @@ const LeftSection = () => {
             <li className="text-lg font-[500] text-[#FFFFFF99] leading-[28.8px] hover:text-[20px] md:hover:text-[20px] hover:font-bold hover:leading-[28.8px] md:hover:leading-[38.4px] hover:text-[#FFFFFF]">
               Graphic Designer & Video Editor
             </li>
-          </ul>
+          </ul> */}
+          <ul className="space-y-4 border-l-2 border-gray-700 pl-4 py-4">
+  <li className="text-lg font-[500] text-[#FFFFFF99] leading-[28.8px] transition-all duration-300 ease-in-out hover:text-[20px] md:hover:text-[20px] hover:font-bold hover:leading-[28.8px] md:hover:leading-[38.4px] hover:text-[#FFFFFF]">
+    Front End Developer
+  </li>
+  <li className="text-lg font-[500] text-[#FFFFFF99] leading-[28.8px] transition-all duration-300 ease-in-out hover:text-[20px] md:hover:text-[20px] hover:font-bold hover:leading-[28.8px] md:hover:leading-[38.4px] hover:text-[#FFFFFF]">
+    Back End Developer
+  </li>
+  <li className="text-lg font-[500] text-[#FFFFFF99] leading-[28.8px] transition-all duration-300 ease-in-out hover:text-[20px] md:hover:text-[20px] hover:font-bold hover:leading-[28.8px] md:hover:leading-[38.4px] hover:text-[#FFFFFF]">
+    Creative Leader
+  </li>
+  <li className="text-lg font-[500] text-[#FFFFFF99] leading-[28.8px] transition-all duration-300 ease-in-out hover:text-[20px] md:hover:text-[20px] hover:font-bold hover:leading-[28.8px] md:hover:leading-[38.4px] hover:text-[#FFFFFF]">
+    Graphic Designer & Video Editor
+  </li>
+</ul>
+
         </div>
       </div>
     </div>

@@ -1,12 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import BrandGrid from "./Component/Brands";
-import FeaturedIn from "./Component/Featured";
-import FooterContainer from "./Component/footer";
+
 import GetInTouch from "./Component/footer2/GetInTouch";
-import InfluencerMarketingSection from "./Component/influencerMarkteing";
-import MostMediaExperienced from "./Component/MostMediaExperienced";
-import Navbar from "./Component/Navbar/index";
-import OurMilestonesSection from "./Component/OurMilestones";
+
 import Home from "./screens/Home";
 import AboutUs from "./screens/aboutUs";
 import Work from "./screens/work";
@@ -31,3 +26,23 @@ function App() {
 }
 
 export default App;
+
+// import React from 'react';
+
+// const GetInTouch = () => {
+//   return (
+//     <h2 
+//       className="text-[36px] sm:text-[48px] font-[900] text-left mb-6 tracking-wide text-[#272727] leading-tight sm:leading-[60px]" 
+//       style={{ 
+//         WebkitTextStroke: '2px #FFFFFF80', 
+//         border: '2px solid #FFFFFF80' 
+//       }}
+//     >
+//       GET IN TOUCH
+//     </h2>
+//   );
+// };
+
+// export default GetInTouch;
+
+

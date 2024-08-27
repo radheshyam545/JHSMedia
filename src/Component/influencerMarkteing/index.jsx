@@ -25,13 +25,30 @@ const InfluencerMarketingSection = () => {
         <p className="text-sm md:text-base text-gray-700 mt-4 font-normal">
           A bunch of changemakers in their early twenties who decided to change the way brands happen. Four years later, we are the innovative brains behind the digital marketing solutions of leading brands like Nykaa Man, Amazon Prime Video, Mama Earth, Livonser, Seeker Academy and many others.
         </p>
-        <button className="flex items-center mt-6 hover:text-orange-600 font-semibold text-[20px] md:text-[24px] text-[#E54F26] leading-[24px] md:leading-[28.8px]">
+        {/* <button className="flex items-center mt-6 hover:text-orange-600 font-semibold text-[20px] md:text-[24px] text-[#E54F26] leading-[24px] md:leading-[28.8px]">
           <img 
             src={watchvideoicon} 
             className="h-10 md:h-14 w-10 md:w-14 mr-3"
           />
           Watch Video
-        </button>
+        </button> */}
+      <button className="flex items-center mt-6 hover:text-orange-600 font-semibold text-[20px] md:text-[24px] text-[#E54F26] leading-[24px] md:leading-[28.8px]">
+  <div className="relative">
+    <span className="absolute inset-0 flex items-center justify-center">
+      <span className="absolute inline-block h-8 w-8 md:h-10 md:w-10 rounded-full bg-[#E54F26] opacity-20 animate-ping"></span>
+      <span className="absolute inline-block h-8 w-8 md:h-10 md:w-10 rounded-full bg-[#E54F26] opacity-30 animate-ping delay-100"></span>
+      <span className="absolute inline-block h-8 w-8 md:h-10 md:w-10 rounded-full bg-[#E54F26] opacity-50 animate-ping delay-200"></span>
+    </span>
+    <img 
+      src={watchvideoicon} 
+      className="h-10 md:h-14 w-10 md:w-14 relative z-10 rounded-[60px]"
+    />
+  </div>
+  Watch Video
+</button>
+
+
+
       </div>
     </div>
   );
