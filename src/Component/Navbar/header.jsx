@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import logo from "../../assets/new-logo.png";
+// import logo from "../../assets/new-logo.png";
+import logo from "../../assets/JHS_MEDIA_LOGO__WB-removebg.png";
 import contactUs from "../../assets/contact-us.png";
 import { Link, useNavigate } from 'react-router-dom';
 
@@ -17,7 +18,7 @@ const Navbar = () => {
     <nav className="text-white py-4 px-5 sm:px-8 flex items-center justify-center font-['Urbanist'] relative z-10">
       <div className="max-w-[1285px] w-full flex items-center justify-between">
         <div className="flex items-center ml-4 sm:ml-[200px]">
-          <img src={logo} alt="JHS Media" className="h-8 w-auto mr-4" />
+          <img src={logo} alt="JHS Media" className="h-20 w-22 mr-4 sm:w-auto" />
         </div>
         <div className="flex items-center mr-4 sm:mr-[200px]">
           {/* Mobile Menu Button */}

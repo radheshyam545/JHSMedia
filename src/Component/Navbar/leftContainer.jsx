@@ -11,7 +11,7 @@ const LeftContainer = () => {
         <h1 className="text-2xl md:text-4xl font-bold text-white leading-snug">
           Connecting Your Brand
           <br />
-          <span className="text-red-600 italic">JHS Media</span> Influencer
+          <span className="text-[#E54F26] italic">JHS Media</span> Influencer
           <br />
           For Your Business
         </h1>

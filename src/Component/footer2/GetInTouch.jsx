@@ -1,6 +1,7 @@
 import React from 'react';
 import arrowIcon from "../../assets/contact-us.png";
-import logo from "../../assets/new-logo.png";
+// import logo from "../../assets/new-logo.png";
+import logo from "../../assets/JHS_MEDIA_LOGO__WB-removebg.png";
 import locationIcon from '../../assets/map-icon.png'; // Replace with your actual image path
 import callIcon from '../../assets/visit-icon.png';
 import mapviewImg from '../../assets/mapview.png';
@@ -61,10 +62,10 @@ const GetInTouch = () => {
           </div>
         </div>
         <div className="flex flex-col lg:flex-row items-center lg:space-x-8 mt-auto lg:-mb-11 mb-2">
-          <div className="mb-2 lg:mb-0">
-            <img src={logo} alt="JHS Media" className="h-6 sm:h-8" />
+          <div className="mb-2 lg:mb-0 lg:-ml-3">
+            <img src={logo} alt="JHS Media" className="h-16 sm:h-[70px]" />
           </div>
-          <div className="flex space-x-2 sm:space-x-10">
+          <div className="flex space-x-2 sm:space-x-7">
             <a href="#" className="hover:text-orange-500 text-[20px] sm:text-base text-[#FFFFFF]">Brands</a>
             <span>|</span>
             <a href="#" className="hover:text-orange-500 text-[20px] sm:text-base text-[#FFFFFF]">Influencer</a>
