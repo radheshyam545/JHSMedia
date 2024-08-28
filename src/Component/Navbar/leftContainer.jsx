@@ -6,8 +6,8 @@ import phoneIcon from "../../assets/phone-icon.png";
 
 const LeftContainer = () => {
   return (
-    <div className="flex h-screen items-center justify-between flex-col from-black to-red-900 font-['Urbanist'] px-4 md:px-0">
-      <div className="mt-10 md:mt-20 md:ml-56 text-center md:text-left">
+    <div className="flex h-full lg:h-auto items-center justify-between flex-col from-black to-red-900 font-['Urbanist'] px-4 md:px-0">
+      <div className="mt-10 md:mt-1 md:ml-56 text-center md:text-left">
         <h1 className="text-2xl md:text-4xl font-bold text-white leading-snug">
           Connecting Your Brand
           <br />
