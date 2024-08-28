@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from './header'; // Adjust the import path as necessary
 import LeftContainer from './leftContainer';
-import backImg from "../../assets/img-17.png";
+// import backImg from "../../assets/img-17.png";
+import backImg from "../../assets/header_new_bg.png";
 import SocialMediaCard from './rightContainer';
 
 const ParentContainer = () => {

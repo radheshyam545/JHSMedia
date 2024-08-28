@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="text-white py-4 px-5 sm:px-8 flex items-center justify-center font-['Urbanist'] relative z-10">
       <div className="max-w-[1285px] w-full flex items-center justify-between">
         <div className="flex items-center ml-4 sm:ml-[200px]">
-          <img src={logo} alt="JHS Media" className="h-20 w-22 mr-4 sm:w-auto" />
+          <img src={logo} alt="JHS Media" className="h-[100px] w-22 mr-4 sm:w-auto" />
         </div>
         <div className="flex items-center mr-4 sm:mr-[200px]">
           {/* Mobile Menu Button */}
@@ -43,8 +43,8 @@ const Navbar = () => {
           </button>
 
           {/* Desktop Menu */}
-          <ul className={`hidden sm:flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-[55px] ml-4 sm:ml-0 ${isOpen ? "block" : "hidden"} sm:block`}>
-            <li><Link to="/" className="hover:text-gray-400">Home</Link></li>
+          <ul className={`text-black hidden sm:flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-[55px] ml-4 sm:ml-0 ${isOpen ? "block" : "hidden"} sm:block`}>
+            <li><Link to="/" className="hover:text-gray-400 ">Home</Link></li>
             <li><Link to="/about" className="hover:text-gray-400">About</Link></li>
             <li><Link to="/work" className="hover:text-gray-400">Work</Link></li>
             <li><Link to="/connect" className="hover:text-gray-400">Connect</Link></li>

@@ -8,7 +8,7 @@ const LeftContainer = () => {
   return (
     <div className="flex h-full lg:h-auto items-center justify-between flex-col from-black to-red-900 font-['Urbanist'] px-4 md:px-0">
       <div className="mt-10 md:mt-1 md:ml-56 text-center md:text-left">
-        <h1 className="text-2xl md:text-4xl font-bold text-white leading-snug">
+        <h1 className="text-2xl md:text-4xl font-bold text-black leading-snug">
           Connecting Your Brand
           <br />
           <span className="text-[#E54F26] italic">JHS Media</span> Influencer
