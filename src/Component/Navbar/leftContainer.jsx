@@ -9,14 +9,12 @@ const LeftContainer = () => {
     <div className="flex h-full lg:h-auto items-center justify-between flex-col from-black to-red-900 font-['Urbanist'] px-4 md:px-0">
       <div className="mt-10 md:mt-1 md:ml-56 text-center md:text-left">
         <h1 className="text-2xl md:text-4xl font-bold text-black leading-snug">
-          Connecting Your Brand
-          <br />
-          <span className="text-[#E54F26] italic">JHS Media</span> Influencer
-          <br />
-          For Your Business
+          Connecting Brand's           <br />
+          <span className="text-[#E54F26] italic">Creating Impact</span>           <br />
+          
         </h1>
-        <p className="mt-4 text-sm md:text-lg text-gray-300">
-          Monk-E represents India's finest digital creators and empowers India's fastest growing startups with influencer marketing.
+        <p className="mt-4 text-sm md:text-lg text-black">
+          JHS Media One Stop solution to all of your digital marketing needs.
         </p>
         <div className="Frame2 lg:w-[150px] mt-6 h-[45px] px-4 py-2 bg-[#e54f26] rounded-lg flex justify-center md:justify-start items-center">
           <div className="ContactUs w-[111px] text-white text-lg font-semibold font-['Urbanist']">
