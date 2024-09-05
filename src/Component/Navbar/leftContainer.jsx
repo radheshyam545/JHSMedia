@@ -23,7 +23,7 @@ const LeftContainer = () => {
           <img className="Subtract w-5 h-5 ml-2" src={contactUs} />
         </div>
       </div>
-      <div 
+      {/* <div 
         style={{
           background: 'linear-gradient(94.37deg, #171719 -56.81%, #E54F26 -3.21%, #E54F26 44.09%, #FF8665 100.85%)'
         }}
@@ -38,7 +38,7 @@ const LeftContainer = () => {
         <button className="p-1 rounded-full">
           <img src={phoneIcon} className="w-5 h-5 md:w-6 md:h-6" />
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

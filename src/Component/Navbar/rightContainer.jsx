@@ -16,7 +16,7 @@ const SocialCard = () => {
           className="w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] lg:-ml-11"
         />
       </div>
-      <div className="flex space-x-4 mt-4 md:absolute md:right-0 md:top-1/2 md:transform md:-translate-y-1/2 md:flex-col md:space-x-0 md:space-y-4">
+      {/* <div className="flex space-x-4 mt-4 md:absolute md:right-0 md:top-1/2 md:transform md:-translate-y-1/2 md:flex-col md:space-x-0 md:space-y-4">
         <div className="p-1">
           <img
             src={facebookIcon}
@@ -52,7 +52,7 @@ const SocialCard = () => {
             alt="Picsart"
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
