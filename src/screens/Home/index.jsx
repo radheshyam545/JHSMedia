@@ -6,6 +6,8 @@ import OurMilestonesSection from '../../Component/OurMilestones'
 import BrandGrid from '../../Component/Brands'
 import FeaturedIn from '../../Component/Featured'
 import GetInTouch from '../../Component/footer2/GetInTouch'
+import ProductWebsites from './productWebsite/product_website'
+import ServicesSection from './ServicesSection/services_section'
 
 const Home = () => {
   return (
@@ -14,7 +16,9 @@ const Home = () => {
     <MostMediaExperienced/>
     <InfluencerMarketingSection/>
     <OurMilestonesSection/>
+    <ProductWebsites/>
     <BrandGrid/>
+    <ServicesSection/>
     <FeaturedIn/>
     </>
   )
