@@ -56,7 +56,7 @@ const ParentContainer = () => {
 
   // Auto-slide functionality
   useEffect(() => {
-    const interval = setInterval(nextSlide, 3000); // Slide every 3 seconds
+    const interval = setInterval(nextSlide, 6000); // Slide every 3 seconds
     return () => clearInterval(interval); // Cleanup the interval on unmount
   }, []);
 
@@ -103,7 +103,7 @@ const ParentContainer = () => {
 
       {/* Fixed Positioned Right Social Icons */}
       <div className="fixed right-2 md:right-0 top-1/2 transform -translate-y-1/2 z-1000">
-        <div className="flex space-x-4 mt-4 md:flex-col md:space-x-0 md:space-y-4">
+        <div className="flex-col space-x-4 mt-4 md:flex-col md:space-x-0 md:space-y-4">
           <div className="p-1">
             <img
               src={facebookIcon}
