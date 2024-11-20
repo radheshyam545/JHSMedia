@@ -15,7 +15,8 @@ const Navbar = () => {
     <nav className="text-white py-4 px-5 sm:px-8 flex items-center justify-center font-['Urbanist'] relative z-10">
       <div className="max-w-[90vw] w-full flex items-center justify-between">
         <div className="flex items-center ml-2 sm:ml-[12.5%]">
-          <img src={logo} alt="JHS Media" className="h-[15vw] sm:h-[5vw] w-auto" />
+          {/* <img src={logo} alt="JHS Media" className="h-[20vw] sm:h-[5vw] w-auto" /> */}
+          <img src={logo} alt="JHS Media" className="h-[20vw] sm:h-[10vw] w-auto" />
         </div>
         <div className="flex items-center mr-2 sm:mr-[12.5%]">
           {/* Mobile Menu Button */}
